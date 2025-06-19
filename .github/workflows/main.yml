@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main ]
 jobs:
-  Disable:
+  disable:
     runs-on: ubuntu-latest
     steps:
-      - name: SNcoders
+      - name: SN
         run: "Disable Workflow Video BY SNcoders"
