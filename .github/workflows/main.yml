@@ -7,5 +7,5 @@ jobs:
   disable:
     runs-on: ubuntu-latest
     steps:
-      - name: SN
+      - name: samad
         run: "Disable Workflow Video BY SNcoders"
