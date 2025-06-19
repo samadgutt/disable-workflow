@@ -1,0 +1,11 @@
+name: Disable Workflow Video
+
+on:
+  push:
+    branches: [ main ]
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SNcoders
+        run: "Disable Workflow Video BY SNcoders"
