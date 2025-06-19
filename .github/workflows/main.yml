@@ -1,11 +1,11 @@
 name: Disable Workflow Video
 
 on:
-  push:
+ push:
     branches: [ main ]
 jobs:
   disable:
     runs-on: ubuntu-latest
     steps:
       - name: samad
-        run: "Disable Workflow Video BY SNcoders"
+        run: echo "Disable Workflow Video BY SNcoders"
